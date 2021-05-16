@@ -1,0 +1,77 @@
+#chat-box {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-profile-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+#chat-container {
+  width: 40%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.bottom-profile-page-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.middle-profile-page-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.profile-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center;
+}
+
+#profile-top-image {
+  width: 500px;
+  height: 300px;
+}
+
+#profile-page-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-image {
+  width: 200px;
+  height: 200px;
+}
+
+.profile-page-container {
+  background-color: peachpuff;
+}
+
+#item-description {
+  width: 50%;
+}
+
+#item-purchase-button {
+  width: 50%;
+  height: 100px;
+}
+
+#inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
